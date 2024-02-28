@@ -60,3 +60,11 @@ plt.pie(values, labels=labels, autopct='%1.1f%%')
 plt.title('Diagramme circulaire de la fusion EGFF & EF')
 plt.axis('equal')  # Assurez-vous que le cercle est dessiné correctement
 plt.show()
+
+
+
+plt.bar(labels, values)
+plt.title('Diagramme à barres de la fusion EGFF & EF')
+plt.xlabel('Éléments de croyance')
+plt.ylabel('Degré de croyance')
+plt.show()
